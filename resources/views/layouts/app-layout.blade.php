@@ -14,11 +14,13 @@
     <title>@yield('title')</title>
 </head>
 <body>
+   <div class="relative">
     @include('includes.navbar')
 
     @yield('content')
 
     @include('includes.footer')
+   </div>
 
     @yield('script')
 

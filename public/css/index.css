@@ -1,9 +1,30 @@
+:root {
+    --brandColor: #c39d65;
+    --primaryColor: #ecdad6;
+    --grayColor:#d1c8cb;
+    --secondaryColor: #565f70;
+}
+
+.brand-color {
+    color: #c39d65;
+}
+.primary-color {
+    color: #ecdad6;
+}
+.secondary-color {
+    color: #565f70;
+}
+.gray-color {
+    color: #d1c8cb;
+}
+
+
 body {background-color : #ededed; font-family : "Open Sans", sans-serif;}
 
-li a {text-decoration : none; color : #2d2f31;}
+li a {text-decoration : none; color : var(--brandColor);}
 
 .bg {
-
+background-color: var(--brandColor);
 }
 nav {
 
@@ -22,13 +43,16 @@ span::after {
 }
 
 .slide {
-    background: #d9d9d9;
+    background: rgba(86, 95, 112, 0.3);
   clear:both;
   width:100%;
   height:0px;
   overflow: hidden;
   text-align: center;
   transition: height .4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide li {
@@ -38,4 +62,17 @@ span::after {
 
 #touch {position: absolute; opacity: 0; height: 0px;}
 
-#touch:checked + .slide {height: 100px;}
+#touch:checked + .slide {
+    height: 100px;
+}
+
+
+/* homepage css - header */
+
+.header-banner {
+    background-image: url('../images/life-with-colors-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
