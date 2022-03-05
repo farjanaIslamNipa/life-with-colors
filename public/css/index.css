@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+
+
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
 :root {
     --brandColor: #c39d65;
     --primaryColor: #ecdad6;
     --grayColor:#d1c8cb;
-    --secondaryColor: #565f70;
+    --secondaryColor: #9e61da;
 }
 
 .brand-color {
@@ -12,7 +28,7 @@
     color: #ecdad6;
 }
 .secondary-color {
-    color: #565f70;
+    color: #9e61da;
 }
 .gray-color {
     color: #d1c8cb;
@@ -70,7 +86,7 @@ span::after {
 /* homepage css - header */
 
 .header-banner {
-    background-image: url('../images/life-with-colors-banner.jpg');
+    background-image: url('../images/life-with-colors-banner-03.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

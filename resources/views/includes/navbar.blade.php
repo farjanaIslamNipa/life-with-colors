@@ -4,7 +4,7 @@
 <nav class="">
 
  <div class="text-center">
-    <label for="touch"><span class="text-primary text-2xl bg-secondary rounded-full shadow-sm"><i class="fa-solid fa-ellipsis-vertical"></i></span></label>
+    <label for="touch"><span class="text-primary text-2xl bg-teal-500 rounded-full shadow-sm"><i class="fa-solid fa-ellipsis-vertical"></i></span></label>
     <input type="checkbox" id="touch">
 
     <ul class="slide">
